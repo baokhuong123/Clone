@@ -1,0 +1,10 @@
+$shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+.inputField {
+    div {
+        margin-right: 0.5rem;
+    }
+}
+
+.Box {
+    box-shadow: $shadow;
+}

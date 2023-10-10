@@ -1,0 +1,12 @@
+- Before begins implementing any feature:
+  1. run "git pull" at main branch for up to date code.
+  2. create branch with format "(responsible person's name)_(task)", for instance: Khuong_Design-MasterData-Page.
+  3. start coding.
+
+- Before pushing or publishing your code into github:
+  1. run "git add ."
+  2. run "git commit -m "your message" ". The message should be describes your codes, specifically about what did you do about those codes you want to push, make a short describe of it.
+  3. run "git pull origin main" to make sure that if other members did changed at main branch and check out conflicts.
+  4. fix conflicts then do again step 1 - 3 (if step 3 has conflicts).
+  5. run "git push".
+  6. after step 5, if terminal has some notify like using "git push --set-upstream ...", copy and run that message.
